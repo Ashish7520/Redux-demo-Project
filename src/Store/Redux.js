@@ -19,7 +19,7 @@ const counterReducer = (state = { counter: 0 }, action) => {
     };
   }
 
-  if (action.type === "DECREMENTBY2 ") {
+  if (action.type === "DECREMENTBY2") {
     return {
       counter: state.counter - 2,
     };
